@@ -1,10 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var knex = require('../db/knex')
 
-function Movies() {
-  return knex('movies');
-}
 
 /* Movies Routes Go Here. */
 
